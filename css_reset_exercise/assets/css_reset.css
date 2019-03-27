@@ -1,0 +1,23 @@
+body, header, img, nav, ul, li, a,
+aside, h2, p, section, h1, figure, figcaption
+ {
+  margin: 0;
+  padding: 0;
+  border: 1px solid cyan;
+  font: inherit;
+  font-size: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
